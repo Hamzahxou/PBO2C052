@@ -9,16 +9,16 @@ class Person {
         this.city = city;
     }
 
-    void cetakInfo() {
+    void displayInfo() {
         System.out.println("Nama  : " + name);
         System.out.println("Umur  : " + age);
         System.out.println("Kota  : " + city);
     }
 }
 
-class Main{
+public class Main{
     public static void main(String[] args) {
             Person person1 = new Person("Hamzah", 20, "Bangkalan");
-            person1.cetakInfo();
+            person1.displayInfo();
     } 
 }
