@@ -16,7 +16,7 @@ class Person {
     }
 }
 
-public class Main{
+class Main{
     public static void main(String[] args) {
             Person person1 = new Person("Hamzah", 20, "Bangkalan");
             person1.displayInfo();
